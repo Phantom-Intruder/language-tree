@@ -1,16 +1,18 @@
 # language-tree
 Language tree to understand text
 
-##Why? 
+###Why? 
 Do computers really understand our language? 
+
 If you take the sentence: 
-Booth jumped into the box and aimed a single-shot, round-slug .44 caliber Henry Deringer at his head, firing at point-blank range
+
+>Booth jumped into the box and aimed a single-shot, round-slug .44 caliber Henry Deringer at his head, firing at point-blank range
 
 It really doesn't convey the meaning to a computer. Sure, a human can understand it, but what about computers?
 
 This is the output by the Stanford Parser:
 
-(ROOT
+`(ROOT
   (S
     (NP (NNP Booth))
     (VP
@@ -40,4 +42,4 @@ This is the output by the Stanford Parser:
       )
     )
   )
-)
+)`
